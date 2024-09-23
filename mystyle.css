@@ -1,14 +1,28 @@
+/* External styles for both the 7-day and fall forecast pages */
 body {
-    background-color: #f5deb3;
+    background-color: #F5DEB3;
     font-family: 'Arial', sans-serif;
-    color: #8b4513;
+    color: #8B4513;
 }
 
 h1 {
-    color: #d2691e;
+    color: #D2691E;
     text-align: center;
 }
 
+/* General styling for the forecast days */
 .day {
     font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
 }
+
+/* External styles for animated weather icons (e.g., a cloud or leaf) */
+.weather-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
