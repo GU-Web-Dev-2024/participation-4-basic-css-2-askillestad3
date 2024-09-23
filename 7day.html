@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>7-Day Fall Weather Forecast</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!-- Embedded styles will go here -->
+    <style>
+        .forecast {
+            border: 2px solid #B5651D;
+            padding: 10px;
+            background-color: #FFE4C4;
+        }
+
+        .day {
+            margin: 10px;
+            padding: 5px;
+            transition: background-color 0.5s ease;
+        }
+
+        /* Hover effect: Change background color when hovering over a day */
+        .day:hover {
+            background-color: #D2B48C;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>7-Day Fall Weather Forecast</h1>
+
+    <div class="forecast">
+        <p class="day">Monday: Sunny, 60°F</p>
+        <p class="day">Tuesday: Cloudy, 55°F</p>
+        <p class="day">Wednesday: Rainy, 50°F</p>
+        <p class="day">Thursday: Windy, 53°F</p>
+        <p class="day">Friday: Partly Cloudy, 58°F</p>
+        <p class="day">Saturday: Light Rain, 52°F</p>
+        <p class="day">Sunday: Overcast, 54°F</p>
+    </div>
+
+    <!-- Inline style example with a different text color -->
+    <footer style="text-align: center; color: #8B0000;">Last updated: September 22</footer>
+</body>
+
+</html>

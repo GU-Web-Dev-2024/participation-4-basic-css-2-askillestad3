@@ -17,12 +17,3 @@ h1 {
     margin: 5px;
     border-radius: 5px;
 }
-
-/* External styles for animated weather icons (e.g., a cloud or leaf) */
-.weather-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
