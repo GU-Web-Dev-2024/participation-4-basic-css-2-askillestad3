@@ -1,0 +1,14 @@
+body {
+    background-color: #f5deb3;
+    font-family: 'Arial', sans-serif;
+    color: #8b4513;
+}
+
+h1 {
+    color: #d2691e;
+    text-align: center;
+}
+
+.day {
+    font-size: 18px;
+}
